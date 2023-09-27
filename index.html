@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- >>>>> Link CSS File <<<<<< -->
+    <link rel="stylesheet" href="style.css">
+    <!-- >>>>> Page tilte<<<<<<> -->
+    <title>Stop Watch</title>
+</head>
+<body>
+    <!-- >>>>> Main HTML  <<<<<< -->
+    <main>
+        <div class="overlay">
+            <h1>Stop Watch</h1>
+            <h2 class="timer">
+                <span class="hr" id="hr">00</span> :
+                <span class="min" id="min">00</span> :
+                <span class="sec" id="sec">00</span> :
+                <span class="mili-sec" id="milli">00</span>
+            </h2>
+            <div class="btns">
+                <button class="btn" id="start-btn" onclick="start()">Start</button>
+                <button class="btn" id="stop-btn" onclick="stop()">Stop</button>
+                <button class="btn" id="rest-btn" onclick="rest()">Rest</button>
+            </div>
+            <div class="line">
+                <div class="overline"></div>
+            </div>
+        </div>
+        
+    </main>
+
+    <!-- >>>>> Link JavaScript File <<<<<< -->
+    <script src="script.js"></script>
+</body>
+</html>
